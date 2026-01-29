@@ -14,14 +14,23 @@ Skills are reusable instructions that extend Claude's behavior. They can be alwa
 
 ## Installation
 
-### Quick Install (via OpenSkills)
+### Install a Specific Skill
+
+```bash
+curl -sL https://raw.githubusercontent.com/TheLoneWulf-WA/claude-skills/main/install.sh | bash -s <skill-name>
+```
+
+For example, to install `contextual-placeholders`:
+
+```bash
+curl -sL https://raw.githubusercontent.com/TheLoneWulf-WA/claude-skills/main/install.sh | bash -s contextual-placeholders
+```
+
+### Install All Skills (via OpenSkills)
 
 ```bash
 npx openskills install TheLoneWulf-WA/claude-skills
-npx openskills sync
 ```
-
-This installs all skills from this repo to `~/.claude/skills/`.
 
 ### Manual Install
 
