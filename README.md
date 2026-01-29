@@ -14,20 +14,23 @@ Skills are reusable instructions that extend Claude's behavior. They can be alwa
 
 ## Installation
 
-To use a skill, symlink its folder to your Claude Code skills directory:
+### Quick Install (via OpenSkills)
 
 ```bash
-# Create the skills directory if it doesn't exist
-mkdir -p ~/.claude/skills
-
-# Symlink the skill you want to use
-ln -s /path/to/claude-skills/contextual-placeholders ~/.claude/skills/contextual-placeholders
+npx openskills install TheLoneWulf-WA/claude-skills
+npx openskills sync
 ```
 
-For example, if you cloned this repo to `~/Developer/personal/claude-skills`:
+This installs all skills from this repo to `~/.claude/skills/`.
+
+### Manual Install
+
+Clone the repo and symlink the skill you want:
 
 ```bash
-ln -s ~/Developer/personal/claude-skills/contextual-placeholders ~/.claude/skills/contextual-placeholders
+git clone https://github.com/TheLoneWulf-WA/claude-skills.git
+mkdir -p ~/.claude/skills
+ln -s /path/to/claude-skills/contextual-placeholders ~/.claude/skills/contextual-placeholders
 ```
 
 ## Creating Your Own Skills
