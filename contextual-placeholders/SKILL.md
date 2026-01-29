@@ -73,7 +73,7 @@ The placeholder image dimensions don't need to match every breakpoint—CSS hand
 
 Leave these unchanged—they are not image placeholders:
 
-- **Skeleton loaders** - Gray animated boxes for loading states are intentional UI
+- **Skeleton loaders** - Animated placeholder boxes for loading states are intentional UI
 - **Icons** - Use icon libraries (Lucide, Heroicons, etc.), not photos
 - **Logos** - Add a comment noting "replace with logo" rather than using a random image
 - **Charts/graphs** - Use charting libraries or placeholder components
