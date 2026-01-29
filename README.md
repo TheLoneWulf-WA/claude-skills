@@ -10,7 +10,7 @@ Skills are reusable instructions that extend Claude's behavior. They can be alwa
 
 | Skill | Description |
 |-------|-------------|
-| [contextual-placeholders](./contextual-placeholders/) | Automatically use contextual placeholder images from Unsplash, Picsum, and other services instead of gray boxes when building UI components |
+| [contextual-placeholders](./contextual-placeholders/) | Automatically use contextual placeholder images from Unsplash, Picsum, and other services instead of solid color boxes when building UI components |
 
 ## Installation
 

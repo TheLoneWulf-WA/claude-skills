@@ -1,11 +1,11 @@
 ---
 name: contextual-placeholders
-description: Automatically use contextual placeholder images from Unsplash, Picsum, and other services instead of gray boxes when building UI components with images
+description: Automatically use contextual placeholder images from Unsplash, Picsum, and other services instead of solid color boxes when building UI components with images
 ---
 
 # Contextual Placeholders
 
-When building UI components that display images, always use real placeholder image services instead of empty gray boxes or non-existent local paths.
+When building UI components that display images, always use real placeholder image services instead of solid color boxes or non-existent local paths.
 
 ## Core Rules
 
