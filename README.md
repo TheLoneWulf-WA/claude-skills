@@ -12,6 +12,7 @@ Skills are reusable instructions that extend Claude's behavior. They can be alwa
 |-------|-------------|
 | [contextual-placeholders](./contextual-placeholders/) | Automatically use contextual placeholder images from Unsplash, Picsum, and other services instead of solid color boxes when building UI components |
 | [solana-dev](./solana-dev/) | End-to-end Solana development playbook — framework-kit-first UI, @solana/kit SDK, Anchor/Pinocchio programs, LiteSVM/Mollusk/Surfpool testing |
+| [solana-mobile-dev](./solana-mobile-dev/) | Mobile-first Solana development — MWA 2.0, Expo/React Native, Kotlin, dApp Store publishing, Seeker device features, iOS workarounds |
 
 ## Installation
 

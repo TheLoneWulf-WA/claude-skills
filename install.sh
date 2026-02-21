@@ -17,6 +17,7 @@ if [ -z "$SKILL_NAME" ]; then
   echo "Available skills:"
   echo "  - contextual-placeholders"
   echo "  - solana-dev"
+  echo "  - solana-mobile-dev"
   exit 1
 fi
 
